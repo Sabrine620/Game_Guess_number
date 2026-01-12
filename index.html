@@ -12,24 +12,25 @@
   </head>
   <body>
     <div class="head">
-      <label for="again" class="again">Again !</label>
+      <button class="again">Again !</button>
       <h3>(Between 1 and 20)</h3>
     </div>
 
     <div class="main">
       <h1>Guess My Number</h1>
+      <span class="symbol">?</span>
     </div>
-    <div class="line">
-      <a href="">?</a>
+    <div >
+      
     </div>
 
     <div class="container">
-      <div class="check">
-        <input type="text" />
-        <label for="again" class="again">Check !</label>
+      <div class="check-container">
+        <input value="100" type="number" />
+        <button class="check">Check !</button>
       </div>
       <div >
-        <h3>Start Guessing....</h3>
+        <h2>Start Guessing....</h2>
         <div class="icon">
           <img
             width="48"
@@ -46,9 +47,11 @@
             src="https://img.icons8.com/arcade/64/gold-medal.png"
             alt="gold-medal"
           />
-          <h3>HigherScore : 9999999999</h3>
+          <h4>HigherScore : 0</h4>
         </div>
       </div>
     </div>
+
+    <script src="./app.js"></script>
   </body>
 </html>
